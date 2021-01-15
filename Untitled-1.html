@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperacion aplweb</title>
+
+    <style>
+        body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+        overflow: hidden;
+        background-color: #352f24;
+        }
+        
+        .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+        
+        .topnav a:hover {
+        background-color: #ddd;
+        color: #352f24;
+        }
+        
+        .topnav a.active {
+        background-color: #352f24;
+        color: white;
+        }
+        
+        .topnav .icon {
+        display: none;
+        }
+        
+        @media screen and (max-width: 600px) {
+        .topnav a:not(:first-child) {display: none;}
+        .topnav a.icon {
+            float: right;
+            display: block;
+        }
+        }
+        
+        @media screen and (max-width: 600px) {
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+        }
+        </style>
+
+</head>
+
+<body>
+
+    <body data-new-gr-c-s-check-loaded="8.867.0" >
+
+        <div class="topnav" id="myTopnav">
+
+            <a href="#inicio" class="active">HOME</a>
+            <a href="#introduccion">INTRODUCTION</a>
+            <a href="#historia">HISTORY</a>
+            <a href="#galeria">GALLERY</a>
+            <a href="#contacto">CONTACT</a>
+            <a href="#blog">BLOG</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            &#9776;
+            </a>
+
+        </div>
+
+        <div style="padding-left:30px">
+
+            <h1>NORSE MITHS</h1>
+
+        </div>
+
+        <script>
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += "responsive";
+            } else {
+            x.className = "topnav";
+            }
+        }
+
+        </script>
+
+            <div style="padding-left: 30px">
+            
+                <p>BEYOND LEGENDS...
+
+                    Come with us in a back journey to Scandinavia and experience the Viking Age!
+                    
+                    While Vikings engaged in invading and pillaging, their societies were complex and multifaceted and influential.
+                    
+                    They were skilled craftspeople, successful merchants, and diligent farmers with significant impact across western Europe and beyond.
+                    
+                    And one of the most fascinating and revealing facets of their culture is Norse Mythology, remaining nowdays as a source of knowledge about Vikings beliefs and attitude in life and death.</p>
+
+            </div>
+
+            <div style="padding-left:30px">
+
+                <h3>GALLERY</h3>
+
+            </div>
+
+        <footer style="padding-bottom: 30px">
+
+            <p>Miguel Perez Sanchez</p>
+
+        </footer>
+
+</body>
+</html>
